@@ -1,0 +1,115 @@
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+2026-08-28T08:04:27.949846Z [info     ] Loaded executor: :LocalExecutor: [airflow.executors.executor_loader] loc=executor_loader.py:376
+2026-08-28T08:04:29.375271Z [info     ] Starting log server on http://[::]:8793 [airflow.utils.serve_logs.core] loc=core.py:50
+2026-08-28T08:04:30.383225Z [info     ] Starting the scheduler         [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:1589
+2026-08-28T08:04:32.268285Z [info     ] Worker starting up pid=3523    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:34.129076Z [info     ] Worker starting up pid=3526    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:34.289598Z [warning  ] ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly. [uvicorn.error] loc=config.py:504
+2026-08-28T08:04:34.698443Z [info     ] Started server process [3522]  [uvicorn.error] loc=server.py:94
+2026-08-28T08:04:34.698725Z [info     ] Waiting for application startup. [uvicorn.error] loc=on.py:48
+2026-08-28T08:04:34.720539Z [info     ] Application startup complete.  [uvicorn.error] loc=on.py:62
+2026-08-28T08:04:35.139190Z [info     ] Uvicorn running on http://:8793 (Press CTRL+C to quit) [uvicorn.error] loc=server.py:225
+2026-08-28T08:04:35.570726Z [info     ] Worker starting up pid=3525    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:36.359778Z [info     ] Worker starting up pid=3537    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:36.327555Z [info     ] Worker starting up pid=3532    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:36.950834Z [info     ] Worker starting up pid=3543    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:37.392221Z [info     ] Worker starting up pid=3550    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:37.319545Z [info     ] Worker starting up pid=3542    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:37.759677Z [info     ] Worker starting up pid=3552    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:38.229144Z [info     ] Worker starting up pid=3556    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:39.141610Z [info     ] Worker starting up pid=3557    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:39.692011Z [info     ] Worker starting up pid=3559    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:40.464964Z [info     ] Worker starting up pid=3560    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:40.441351Z [info     ] Worker starting up pid=3558    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:40.748707Z [info     ] Worker starting up pid=3561    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:45.544016Z [info     ] Worker starting up pid=3564    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:46.350231Z [info     ] Worker starting up pid=3563    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:47.168741Z [info     ] Worker starting up pid=3565    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:46.526186Z [info     ] Worker starting up pid=3562    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:50.370528Z [info     ] Worker starting up pid=3566    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:50.955894Z [info     ] Worker starting up pid=3568    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:50.856029Z [info     ] Worker starting up pid=3567    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:48.902091Z [info     ] Worker starting up pid=3569    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:51.229202Z [info     ] Worker starting up pid=3570    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:51.412505Z [info     ] Worker starting up pid=3571    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:55.276604Z [info     ] Worker starting up pid=3574    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:56.224588Z [info     ] Worker starting up pid=3577    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:55.788778Z [info     ] Worker starting up pid=3576    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:56.381060Z [info     ] Worker starting up pid=3575    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:57.467045Z [info     ] Worker starting up pid=3582    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:57.797031Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T08:04:58.272512Z [info     ] Worker starting up pid=3583    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:58.518149Z [info     ] Worker starting up pid=3584    [airflow.executors.local_executor.LocalExecutor] loc=local_executor.py:76
+2026-08-28T08:04:59.089446Z [info     ] Marked 1 SchedulerJob instances as failed [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3276
+2026-08-28T08:05:01.653522Z [info     ] Heartbeat recovered after 33.76 seconds [airflow.jobs.job.Job] loc=job.py:239
+2026-08-28T08:10:00.816382Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T08:15:00.844756Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T08:20:00.877925Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T08:25:00.905986Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T08:30:00.923419Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T08:35:00.793352Z [info     ] checking for stale bundle versions locally [airflow.dag_processing.bundles.base] loc=base.py:223
+2026-08-28T08:35:00.799056Z [info     ] DAG bundles loaded: dags-folder, example_dags, apache-airflow-providers-common-sql-example-dags, apache-airflow-providers-standard-example-dags [airflow.dag_processing.bundles.manager.DagBundlesManager] loc=manager.py:304
+2026-08-28T08:35:00.950952Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T08:40:00.979387Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T08:45:01.011969Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T08:50:01.045606Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T08:55:01.076626Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:00:01.095782Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:05:00.821719Z [info     ] checking for stale bundle versions locally [airflow.dag_processing.bundles.base] loc=base.py:223
+2026-08-28T09:05:00.841672Z [info     ] DAG bundles loaded: dags-folder, example_dags, apache-airflow-providers-common-sql-example-dags, apache-airflow-providers-standard-example-dags [airflow.dag_processing.bundles.manager.DagBundlesManager] loc=manager.py:304
+2026-08-28T09:05:01.114784Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:10:01.142182Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:15:01.172918Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:20:01.195541Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:25:01.211748Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:30:01.228357Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:35:00.863993Z [info     ] checking for stale bundle versions locally [airflow.dag_processing.bundles.base] loc=base.py:223
+2026-08-28T09:35:00.864815Z [info     ] DAG bundles loaded: dags-folder, example_dags, apache-airflow-providers-common-sql-example-dags, apache-airflow-providers-standard-example-dags [airflow.dag_processing.bundles.manager.DagBundlesManager] loc=manager.py:304
+2026-08-28T09:35:01.248036Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:40:01.276982Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:45:01.296541Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:50:01.317357Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T09:55:01.336095Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:00:01.354437Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:05:00.885006Z [info     ] checking for stale bundle versions locally [airflow.dag_processing.bundles.base] loc=base.py:223
+2026-08-28T10:05:00.891274Z [info     ] DAG bundles loaded: dags-folder, example_dags, apache-airflow-providers-common-sql-example-dags, apache-airflow-providers-standard-example-dags [airflow.dag_processing.bundles.manager.DagBundlesManager] loc=manager.py:304
+2026-08-28T10:05:01.373340Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:10:01.413059Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:15:01.436303Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:20:01.456968Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:25:01.477583Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:30:01.494286Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:35:00.922456Z [info     ] checking for stale bundle versions locally [airflow.dag_processing.bundles.base] loc=base.py:223
+2026-08-28T10:35:01.211983Z [info     ] DAG bundles loaded: dags-folder, example_dags, apache-airflow-providers-common-sql-example-dags, apache-airflow-providers-standard-example-dags [airflow.dag_processing.bundles.manager.DagBundlesManager] loc=manager.py:304
+2026-08-28T10:35:01.550234Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:40:02.280906Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:45:02.305263Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:48:00.124542Z [info     ] Heartbeat recovered after 146.50 seconds [airflow.jobs.job.Job] loc=job.py:239
+2026-08-28T10:50:02.378404Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T10:55:02.415601Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:00:02.464543Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:05:01.386628Z [info     ] checking for stale bundle versions locally [airflow.dag_processing.bundles.base] loc=base.py:223
+2026-08-28T11:05:01.455093Z [info     ] DAG bundles loaded: dags-folder, example_dags, apache-airflow-providers-common-sql-example-dags, apache-airflow-providers-standard-example-dags [airflow.dag_processing.bundles.manager.DagBundlesManager] loc=manager.py:304
+2026-08-28T11:05:02.492392Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:10:02.519648Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:15:02.547463Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:20:02.569648Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:25:02.678737Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:30:03.050743Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:35:01.611182Z [info     ] checking for stale bundle versions locally [airflow.dag_processing.bundles.base] loc=base.py:223
+2026-08-28T11:35:01.698699Z [info     ] DAG bundles loaded: dags-folder, example_dags, apache-airflow-providers-common-sql-example-dags, apache-airflow-providers-standard-example-dags [airflow.dag_processing.bundles.manager.DagBundlesManager] loc=manager.py:304
+2026-08-28T11:35:03.070253Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:40:03.137690Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:45:03.410767Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:50:03.480381Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T11:55:03.500437Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T12:00:03.534441Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T12:05:01.916174Z [info     ] checking for stale bundle versions locally [airflow.dag_processing.bundles.base] loc=base.py:223
+2026-08-28T12:05:03.494282Z [info     ] DAG bundles loaded: dags-folder, example_dags, apache-airflow-providers-common-sql-example-dags, apache-airflow-providers-standard-example-dags [airflow.dag_processing.bundles.manager.DagBundlesManager] loc=manager.py:304
+2026-08-28T12:05:04.561913Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252
+2026-08-28T12:09:11.885701Z [info     ] Heartbeat recovered after 41.78 seconds [airflow.jobs.job.Job] loc=job.py:239
+2026-08-28T12:10:04.585279Z [info     ] Adopting or resetting orphaned tasks for active dag runs [airflow.jobs.scheduler_job_runner.SchedulerJobRunner] loc=scheduler_job_runner.py:3252

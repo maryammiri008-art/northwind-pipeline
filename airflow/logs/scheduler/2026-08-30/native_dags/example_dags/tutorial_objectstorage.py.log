@@ -1,0 +1,504 @@
+[2026-08-30T23:13:31.370+0330] {processor.py:186} INFO - Started process (PID=13112) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:13:31.376+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:13:31.393+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:13:31.388+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:13:31.426+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:13:31.419+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:13:31.428+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:13:31.635+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.308 seconds
+[2026-08-30T23:14:01.974+0330] {processor.py:186} INFO - Started process (PID=13239) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:14:01.976+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:14:01.978+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:14:01.977+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:14:01.984+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:14:01.983+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:14:01.985+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:14:02.037+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.078 seconds
+[2026-08-30T23:14:32.539+0330] {processor.py:186} INFO - Started process (PID=13363) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:14:32.541+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:14:32.542+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:14:32.542+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:14:32.546+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:14:32.545+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:14:32.546+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:14:32.584+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.055 seconds
+[2026-08-30T23:15:03.058+0330] {processor.py:186} INFO - Started process (PID=13483) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:15:03.060+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:15:03.062+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:15:03.061+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:15:03.073+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:15:03.070+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:15:03.074+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:15:03.146+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.110 seconds
+[2026-08-30T23:15:33.645+0330] {processor.py:186} INFO - Started process (PID=13601) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:15:33.649+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:15:33.653+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:15:33.652+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:15:33.667+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:15:33.663+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:15:33.668+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:15:33.757+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.138 seconds
+[2026-08-30T23:16:04.149+0330] {processor.py:186} INFO - Started process (PID=13721) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:16:04.152+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:16:04.154+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:16:04.154+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:16:04.162+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:16:04.160+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:16:04.162+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:16:04.218+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.088 seconds
+[2026-08-30T23:16:35.152+0330] {processor.py:186} INFO - Started process (PID=13838) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:16:35.156+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:16:35.161+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:16:35.160+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:16:35.178+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:16:35.172+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:16:35.180+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:16:35.288+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.167 seconds
+[2026-08-30T23:17:06.164+0330] {processor.py:186} INFO - Started process (PID=14003) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:17:06.167+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:17:06.172+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:17:06.171+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:17:06.185+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:17:06.182+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:17:06.186+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:17:06.269+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.138 seconds
+[2026-08-30T23:17:39.124+0330] {processor.py:186} INFO - Started process (PID=14131) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:17:39.127+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:17:39.133+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:17:39.131+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:17:39.149+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:17:39.144+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:17:39.150+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:17:39.284+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.197 seconds
+[2026-08-30T23:18:09.872+0330] {processor.py:186} INFO - Started process (PID=14249) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:18:09.874+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:18:09.877+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:18:09.877+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:18:09.885+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:18:09.884+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:18:09.886+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:18:09.941+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.089 seconds
+[2026-08-30T23:18:40.512+0330] {processor.py:186} INFO - Started process (PID=14368) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:18:40.513+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:18:40.515+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:18:40.514+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:18:40.520+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:18:40.519+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:18:40.521+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:18:40.562+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.065 seconds
+[2026-08-30T23:19:11.097+0330] {processor.py:186} INFO - Started process (PID=14485) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:19:11.099+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:19:11.101+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:19:11.100+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:19:11.106+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:19:11.104+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:19:11.106+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:19:11.145+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.060 seconds
+[2026-08-30T23:19:42.000+0330] {processor.py:186} INFO - Started process (PID=14605) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:19:42.001+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:19:42.002+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:19:42.002+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:19:42.007+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:19:42.006+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:19:42.007+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:19:42.040+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.051 seconds
+[2026-08-30T23:20:13.671+0330] {processor.py:186} INFO - Started process (PID=14728) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:20:13.676+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:20:13.680+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:20:13.679+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:20:13.693+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:20:13.691+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:20:13.694+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:20:13.812+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.163 seconds
+[2026-08-30T23:20:43.981+0330] {processor.py:186} INFO - Started process (PID=14847) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:20:43.982+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:20:43.983+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:20:43.983+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:20:43.987+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:20:43.986+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:20:43.987+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:20:44.013+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.039 seconds
+[2026-08-30T23:21:14.714+0330] {processor.py:186} INFO - Started process (PID=14965) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:21:14.716+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:21:14.718+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:21:14.717+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:21:14.723+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:21:14.722+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:21:14.724+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:21:14.767+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.065 seconds
+[2026-08-30T23:21:45.125+0330] {processor.py:186} INFO - Started process (PID=15084) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:21:45.126+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:21:45.127+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:21:45.127+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:21:45.130+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:21:45.129+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:21:45.130+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:21:45.160+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.042 seconds
+[2026-08-30T23:22:16.032+0330] {processor.py:186} INFO - Started process (PID=15199) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:22:16.034+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:22:16.036+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:22:16.035+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:22:16.041+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:22:16.040+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:22:16.042+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:22:16.077+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.057 seconds
+[2026-08-30T23:22:46.734+0330] {processor.py:186} INFO - Started process (PID=15315) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:22:46.737+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:22:46.739+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:22:46.738+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:22:46.745+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:22:46.743+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:22:46.745+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:22:46.798+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.077 seconds
+[2026-08-30T23:23:17.779+0330] {processor.py:186} INFO - Started process (PID=15436) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:23:17.782+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:23:17.784+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:23:17.784+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:23:17.790+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:23:17.788+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:23:17.791+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:23:17.846+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.081 seconds
+[2026-08-30T23:23:48.598+0330] {processor.py:186} INFO - Started process (PID=15553) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:23:48.599+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:23:48.600+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:23:48.600+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:23:48.604+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:23:48.603+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:23:48.604+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:23:48.633+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.075 seconds
+[2026-08-30T23:24:19.317+0330] {processor.py:186} INFO - Started process (PID=15672) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:24:19.318+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:24:19.320+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:24:19.320+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:24:19.325+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:24:19.324+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:24:19.326+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:24:19.366+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.065 seconds
+[2026-08-30T23:24:50.418+0330] {processor.py:186} INFO - Started process (PID=15790) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:24:50.419+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:24:50.421+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:24:50.420+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:24:50.425+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:24:50.424+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:24:50.426+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:24:50.464+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.059 seconds
+[2026-08-30T23:25:20.583+0330] {processor.py:186} INFO - Started process (PID=15938) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:25:20.585+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:25:20.587+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:25:20.587+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:25:20.594+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:25:20.592+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:25:20.595+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:25:20.644+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.075 seconds
+[2026-08-30T23:25:50.678+0330] {processor.py:186} INFO - Started process (PID=16070) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:25:50.679+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:25:50.680+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:25:50.680+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:25:50.683+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:25:50.683+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:25:50.684+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:25:50.711+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.041 seconds
+[2026-08-30T23:26:21.364+0330] {processor.py:186} INFO - Started process (PID=16190) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:26:21.365+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:26:21.368+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:26:21.367+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:26:21.374+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:26:21.373+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:26:21.375+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:26:21.420+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.076 seconds
+[2026-08-30T23:26:51.984+0330] {processor.py:186} INFO - Started process (PID=16307) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:26:51.986+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:26:51.988+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:26:51.988+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:26:51.996+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:26:51.994+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:26:51.996+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:26:52.052+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.086 seconds
+[2026-08-30T23:27:41.460+0330] {processor.py:186} INFO - Started process (PID=16453) to work on /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:27:41.464+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-08-30T23:27:41.468+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:41.466+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:27:41.473+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:41.472+0330] {dagbag.py:387} ERROR - Failed to import: /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+  File "/home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-08-30T23:27:41.474+0330] {processor.py:927} WARNING - No viable dags retrieved from /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-08-30T23:27:41.501+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflowenv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.052 seconds

@@ -1,0 +1,15 @@
+[2026-08-30T23:27:26.841+0330] {processor.py:186} INFO - Started process (PID=16435) to work on /home/mmirnezamina/de_final_project/airflow/dags/northwind_pipeline.py
+[2026-08-30T23:27:26.850+0330] {processor.py:914} INFO - Processing file /home/mmirnezamina/de_final_project/airflow/dags/northwind_pipeline.py for tasks to queue
+[2026-08-30T23:27:26.855+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:26.853+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/mmirnezamina/de_final_project/airflow/dags/northwind_pipeline.py
+[2026-08-30T23:27:26.913+0330] {processor.py:925} INFO - DAG(s) 'northwind_incremental_pipeline' retrieved from /home/mmirnezamina/de_final_project/airflow/dags/northwind_pipeline.py
+[2026-08-30T23:27:27.284+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:27.283+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:northwind_incremental_pipeline
+[2026-08-30T23:27:27.320+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:27.319+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:northwind_incremental_pipeline
+[2026-08-30T23:27:27.349+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:27.348+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:northwind_incremental_pipeline
+[2026-08-30T23:27:27.386+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:27.386+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:northwind_incremental_pipeline
+[2026-08-30T23:27:27.409+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:27.409+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:northwind_incremental_pipeline
+[2026-08-30T23:27:27.434+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:27.433+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:northwind_incremental_pipeline
+[2026-08-30T23:27:27.457+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:27.456+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:northwind_incremental_pipeline
+[2026-08-30T23:27:27.458+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:27.457+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-08-30T23:27:27.482+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:27.481+0330] {dag.py:3262} INFO - Creating ORM DAG for northwind_incremental_pipeline
+[2026-08-30T23:27:27.506+0330] {logging_mixin.py:190} INFO - [2026-08-30T23:27:27.506+0330] {dag.py:4180} INFO - Setting next_dagrun for northwind_incremental_pipeline to 2026-08-30 19:56:00+00:00, run_after=2026-08-30 19:57:00+00:00
+[2026-08-30T23:27:27.550+0330] {processor.py:208} INFO - Processing /home/mmirnezamina/de_final_project/airflow/dags/northwind_pipeline.py took 0.799 seconds

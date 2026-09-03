@@ -1,0 +1,96 @@
+version: "3.8"
+
+services:
+  postgres_op:
+    image: postgres:15
+    container_name: postgres_op
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_DB: northwind
+    ports:
+      - "25432:5432"
+    volumes:
+      - postgres_op_data:/var/lib/postgresql/data
+    networks:
+      - final_project_network
+    restart: unless-stopped
+
+  postgres_staging:
+    image: postgres:15
+    container_name: postgres_staging
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_DB: northwind_staging
+    ports:
+      - "35432:5432"
+    volumes:
+      - postgres_staging_data:/var/lib/postgresql/data
+    networks:
+      - final_project_network
+    restart: unless-stopped
+
+  kafka:
+    image: apache/kafka:4.0.0
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+    networks:
+      - final_project_network
+    restart: unless-stopped
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: clickhouse_dw
+    environment:
+      CLICKHOUSE_DB: northwind_dw
+      CLICKHOUSE_USER: admin
+      CLICKHOUSE_PASSWORD: admin123
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+    ports:
+      - "28123:8123"
+      - "29000:9000"
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+    networks:
+      - final_project_network
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    ports:
+      - "23000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+    networks:
+      - final_project_network
+    restart: unless-stopped
+
+  employee_media:
+    image: nginx:alpine
+    container_name: employee_media
+    ports:
+      - "28088:80"
+    volumes:
+      - ../data_lake/employees:/usr/share/nginx/html:ro
+    networks:
+      - final_project_network
+    restart: unless-stopped
+
+networks:
+  final_project_network:
+    driver: bridge
+
+volumes:
+  postgres_op_data:
+  postgres_staging_data:
+  kafka_data:
+  clickhouse_data:
+  grafana_data:
