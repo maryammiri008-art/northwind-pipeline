@@ -1,4 +1,0 @@
---2026-08-23 22:25:50--  https://jdbc.postgresql.org/download/postgresql-42.7.3.jar
-Resolving jdbc.postgresql.org (jdbc.postgresql.org)... 72.32.157.228, 2001:4800:3e1:1::228
-Connecting to jdbc.postgresql.org (jdbc.postgresql.org)|72.32.157.228|:443... connected.
-Unable to establish SSL connection.

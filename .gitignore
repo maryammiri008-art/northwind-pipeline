@@ -17,3 +17,14 @@ spark-*.tgz
 .idea/
 .DS_Store
 Thumbs.db
+Downloads/
+*.bak
+*:Zone.Identifier
+wget-log*
+# ===== اضافات =====
+Downloads/
+*.bak
+README.m
+*.Zone.Identifier
+wget-log*
+grafana-clickhouse-plugin/
