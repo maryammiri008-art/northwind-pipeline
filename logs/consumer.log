@@ -1,3 +1,0 @@
-  File "/home/mmirnezamina/de_final_project/kafka/consumer.py", line 60
-    cur.execute(
-IndentationError: unexpected indent
